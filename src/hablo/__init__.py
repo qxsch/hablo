@@ -1,4 +1,4 @@
 
 
 def mucho():
-    return 'mucho'
+    return None
