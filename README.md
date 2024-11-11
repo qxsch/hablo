@@ -3,6 +3,13 @@
 **H**ierarchical **a**nnotation for **b**idirectional **l**anguage **o**utput
 
 
+How to use?
+```python
+import hablo
+hablo.mucho() # default uses Gunicorn Channel
+
+# you can also set your own channel: hablo.mucho(con=Channel)
+```
 
 
 ```bash
