@@ -11,6 +11,10 @@ authors = [
 description = "Package to orchestrate lm-based chat flows"
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = [
+    "pyyaml"
+    "Jinja2"
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
