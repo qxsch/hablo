@@ -81,7 +81,6 @@ class ConfigurationVariable:
         except:
             self._value = self._defaultValue
         for ref in self._references:
-            print("SETTING VALUE: " + self._variableName + " -> " + ref.getName())
             if self._variableName == ref.getName():
                 ref.setValue(self._value)
             elif ref.getName().startswith(self._variableName + "."):
